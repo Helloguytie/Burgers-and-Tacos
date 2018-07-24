@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+  <h1>Fun In The Sun</h1>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .parallax {
+    /* The image used */
+    background-image: url("https://weheartit.com/entry/316531041?context_query=pink+galaxy+background&context_type=search.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+
+  h1 {padding: 30px; text-align: center; font-size: 100px;color:#11C1A2;}
+
+  </style>
+  </head>
+  <body>
+
+
+  	</body>
+
+</html>
