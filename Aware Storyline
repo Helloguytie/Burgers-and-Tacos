@@ -185,13 +185,13 @@ def spiked_code():
             condition13 = False
             print("You drink the remainder of your drink over a conversation with your friend.")
             print()
-            print('''While your friend is gone, another man asks if you need a ride home. Your vision is slightly blurry.
-            Your friend comes out of the restroom and rushes over. She talks with the man for a few seconds before he leaves.
-            “Maybe we should have stayed home tonight,” she says to you. She is able to get you in the car and back to the dorm.
-            “We’ll talk tomorrow, ok? We’ll figure all of this out. Just rest now,” she says.
-            As you lay in bed, you reflect on your day.
-            You think about the things you could have done differently, and you realize that you didn’t have a lot of decisions to make.
-            Some things seem to be just out of your control, but you can always do something about it.''')
+            print('''While your friend is gone, another man asks if you need a ride home.
+            Your vision is only getting blurrier, and your friend hasn’t returned yet. You can’t seem to form any words.
+            Without waiting for a response, he supports your weight as you lean against him, and he leads you out of the bar.
+            This man has led you halfway down the street before your friend and a police officer come running after you.
+            He suddenly drops you and runs away. Your friend cradles your head in her lap while an ambulance is called.
+            Your friend apologizes profusely for the day you’ve been through. Your head is swimming, but you think about the things you could have done differently.
+            You realize you might not have had a lot of decisions to make. Some things seem to be just out of your control, but there were some things you could have done differently.''')
         elif spiked == "no":
             condition13 = False
             print("You decide not to take any chances, and you ask the bartender for a new drink.")
