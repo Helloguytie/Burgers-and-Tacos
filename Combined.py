@@ -233,7 +233,7 @@ def aware():
     print('''“I don’t want anyone else to go through this, but I don’t know what to do,” you admit.
     Emma lets out a sigh. “Human Resources might be able to help if you filed a complaint. Maybe former interns would come forward as well.”''')
     complaint_code()
-    print('''You arrive at your college just in time for your first class. As you’re nearing the corner of a hallway, you hear two of your classmates talking. One of your classmates mentions your name, and you stop walking before you round the corner.''')
+    print("You arrive at "+college+" just in time for your first class. As you’re nearing the corner of a hallway, you hear two of your classmates talking. One of your classmates mentions your name, and you stop walking before you round the corner.")
     eavesdrop_code()
     print('''You return to your dorm and tell your roommate about your day. How could it have gone so wrong? Last night must be the cause of your problems.
     You ask your friend what happened, but she doesn’t have any new information. She manages to convince you to go to the bar with her later that night.
