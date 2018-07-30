@@ -32,6 +32,7 @@ You take a seat across from him, and he begins to speak.
 And you’ve been late at least four times this month. Do you have a reason?” he asks.
 You try to remember the previous night, but there’s a section of the night that just seems to be missing.
 You don’t want your boss to think you’re irresponsible.''')
+
 yon = input("Should you tell him?")
 if yon == "no":
     print ('''”I...I don’t know what happened today, Mr. Parker. But I promise, it won’t happen again,” you say.''')
@@ -46,6 +47,7 @@ Mr. Parker sits on his desk in front of you and continues:
 You tell Mr. Parker that your work can’t cut into anymore of your classes.
 “That won’t be an issue. We can arrange something...you can make up the time you missed another way,” he says, putting a hand on your knee.
 Your body freezes, and you can’t believe what you’re hearing.''')
+
 yorn = input("Should you try to reason with Mr. Parker or quit?")
 if yorn == "reason":
     print ('''You remove Mr. Parker’s hand and take a few steps towards the door.
@@ -76,7 +78,7 @@ You look up suddenly, and she looks away.
 “I won’t let him do this to anyone else,” you say.
 Emma smiles hopefully. “Human Resources could help you if you filed a complaint, and we could even talk to former interns about their experiences.”''')
 yesrno = input ("Do you file a complaint before you leave?")
-if yesrno == yes
+if yesrno == "yes":
     print ('''You take Emma’s advice and file a complaint with Human Resources.
 You ask if anyone else has filed a complaint against Mr. Parker, but they tell you that information is private.
 They do tell you that they’ll be in contact.
@@ -89,24 +91,13 @@ Just imagine the damage that Mr. Parker could do to your career.
 Who would listen to you anyway?
 You think about the former interns...one of them must have filed a complaint, right?
 You walk past Emma as you leave the news station.''')
-else:
-    print (''' You can’t seem to understand what good it would do to file a complaint, so you decide not to.
-Just imagine the damage that Mr. Parker could do to your career.
-Who would listen to you anyway?
-You think about the former interns...one of them must have filed a complaint, right?
-You walk past Emma as you leave the news station.''')
-else:
-    print (''' You can’t seem to understand what good it would do to file a complaint, so you decide not to.
-Just imagine the damage that Mr. Parker could do to your career.
-Who would listen to you anyway?
-You think about the former interns...one of them must have filed a complaint, right?
-You walk past Emma as you leave the news station.''')
+
 print ('''You arrive at <insert college> just in time for your first class.
 As you’re nearing the corner of a hallway, you hear two of your classmates talking.
 One of your classmates mentions your name, and you stop walking before you round the corner.''')
 input("Do you continue walking or wait where you are?")
 conwait = input
-if conwait == wait:
+if conwait == "wait":
     print ('''You wait in the hallway and listen to your classmates, who are unaware that you’re just around the corner.
 “That was a crazy concert. Some people really let themselves go last night,” one classmate says.
 They begin to talk about you.
@@ -126,5 +117,49 @@ What happened with that guy last night?
 There’s a few whistles, but the professor quiets the room and no one will meet your eye.
 You decide to leave class early.''')
 else:
-    print ('''You continue walking and run into your two classmates.
-“Hey, you. We were just talking about the concert last night. Wasn’t it great?” one of your classmates asks.
+    print ("You continue walking and run into your two classmates.")
+great = input("Hey, you. We were just talking about the concert last night. Wasn't it great?")
+if great == "yes":
+    print ("You talk about the great time you had, and the other classmate adds, “From your posts, it sure looked like you had a good time.” You thought there was only one picture...what else did you post? You enter the lecture hall and take a seat, and it doesn’t take long before the whispering starts. You look around and notice that other students are glancing at you. What happened last night? There’s a few whistles, but the professor quiets the room and no one will meet your eye. You decide to leave class early.")
+if great == "no":
+    print ("You admit that you don’t really remember what happened at the concert. “Sure, sure. I never thought you’d let yourself go like that. You didn’t strike me as a party animal. Have you called that guy back yet?” one classmate asks. “What guy?” you respond. “Right...playing it cool. See you inside,” they say. You enter the lecture hall and take a seat, and it doesn’t take long before the whispering starts. You look around and notice that other students are glancing at you. What happened with that guy last night? There’s a few whistles, but the professor quiets the room and no one will meet your eye. You decide to leave class early.")
+print ("You return to your dorm and tell your roommate about your day. How could it have gone so wrong? Last night must be the cause of your problems. You ask your friend what happened, but she doesn’t have any new information. She manages to convince you to go to the bar with her later that night. Maybe it will take your mind off of the recent chain of events. ")
+print ("You arrive and take a seat at the bar with your friend. Several minutes pass before you...are offered a drink from a nicely-dressed, good-looking. He's obviously intoxicated though. ")
+input("DO you want to accept the drink?")
+accept = input
+if accept == "yes":
+    print ("You accept the drink, and the man cuts you off as you begin to order. Once he finishes ordering, you tell the bartender what you'd prefer instead.")
+    print ("'I think that guy was a little strange,' your friend says. She invites you to join her on the dance floor. You consider taking your drink to the dance floor. You're heard of some people -that have left their drinks unattended- and you're not sure if you want to risk it. DO you want to take your drink to the dance floor?" )
+    input ("Do you want to take your drink with you?")
+    takeit = input
+    if input == "yes":
+        print ("You take your drink to the dance floor with your friend. You might have to stay a little closer to the edge of the crowd to avoid being bumped, but you know it’s the safest option.")
+    else:
+        print ("Even though it’s the safest option, you don’t want to dance with your drink all night. You probably know some of these guys from college. What’s the worst that could happen? You leave your drink at the bar and go to the dance floor.")
+else:
+    print ("You decline the drink and the man slurs, 'But I bought it already. You don't know... what's good for you...' You move further away and buy yourself a drink." )
+    print ("'I think we should stay away from that guy,' your friend warns you. She invites you to join her on the dance floor.You consider taking your drink to the dance floor. You're heard of some people -that have left their drinks unattended- and you're not sure if you want to risk it. DO you want to take your drink to the dance floor?")
+    input ("Do you want to take your drink with you?")
+    tookit = input
+    if input == "yes":
+        print ("You take your drink to the dance floor with your friend. You might have to stay a little closer to the edge of the crowd to avoid being bumped, but you know it’s the safest option.")
+    else:
+        print ("Even though it’s the safest option, you don’t want to dance with your drink all night. You probably know some of these guys from college. What’s the worst that could happen? You leave your drink at the bar and go to the dance floor.")
+print ("You return to the bar after a few songs have played. The guy from earlier approaches you and your friend at the bar and...asks you to dance. He's had a few more drinks since the last time you talked to him and he's slurring his words")
+input ("Do you want to go dance with him?")
+if input == "yes":
+    print ("You feel sorry for him and accept his invitation to dance. He reaches for your arm and misses, knocking a glass over. He waves you away before walking to the other end of the bar, and you return to your friend.")
+    print ("You sit back down at the bar and finish your drink over a conversation with your friend")
+else:
+    print ("You decline his offer. He reaches for your arm and misses, knocking a glass over.")
+    if accept == "yes":
+        print ("“I paid for one drink already...waste of my money. You girls think you can get anything for free.” He stumbles towards the end of the bar and sits down. You return to your friend.")
+    else:
+        print ("'If you didn’t want me to pay for it before,” he says, “I won’t pay for it now”. He stumbles towards the end of the bar and sits down. You return to your friend.")
+    print ("You sit back down at the bar and reach for your drink. It doesn't look like there is anything wrong with it, but it does have a strange smell. Do you still want to drink it")
+    input("Do you want to drink it")
+    drinks = input
+    if drinks == "yes":
+        print ("You drink the remainder of your drink over a conversation with your friend. You feel a little dizzy, and the lights in the bar seem to be fading into each other. Your friend tells you to wait for her while she uses the restroom. You lay your head on the bar to stop your head from spinning.")
+    else:
+        print ("You decide not to take any chances, and you ask the bartender for a new drink.")
