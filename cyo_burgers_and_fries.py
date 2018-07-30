@@ -89,31 +89,42 @@ Just imagine the damage that Mr. Parker could do to your career.
 Who would listen to you anyway?
 You think about the former interns...one of them must have filed a complaint, right?
 You walk past Emma as you leave the news station.''')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+else:
+    print (''' You can’t seem to understand what good it would do to file a complaint, so you decide not to.
+Just imagine the damage that Mr. Parker could do to your career.
+Who would listen to you anyway?
+You think about the former interns...one of them must have filed a complaint, right?
+You walk past Emma as you leave the news station.''')
+else:
+    print (''' You can’t seem to understand what good it would do to file a complaint, so you decide not to.
+Just imagine the damage that Mr. Parker could do to your career.
+Who would listen to you anyway?
+You think about the former interns...one of them must have filed a complaint, right?
+You walk past Emma as you leave the news station.''')
+print ('''You arrive at <insert college> just in time for your first class.
+As you’re nearing the corner of a hallway, you hear two of your classmates talking.
+One of your classmates mentions your name, and you stop walking before you round the corner.''')
+input("Do you continue walking or wait where you are?")
+conwait = input
+if conwait == wait:
+    print ('''You wait in the hallway and listen to your classmates, who are unaware that you’re just around the corner.
+“That was a crazy concert. Some people really let themselves go last night,” one classmate says.
+They begin to talk about you.
+“Did you see the guy she was with? I don’t think he goes here, and he never let her out of his sight.”/
+“Forget about the guy, did you see her? She really didn’t seem all there...I don’t think she knew him. It was really out of character.”/
+“Well, was she drunk?”/
+“She never drinks!”/
+“What was she wearing?”/
+“Are you joking? That doesn’t mean anything. You know better than that.”/
+“I’m just saying...we don’t really know what happened.” You continue walking and run into your two classmates.
+“Hey, you. .We were just talking about...the concert.”/
+“Have you called that guy back yet?”/
+Quit bothering her. See you inside, alright?”
+You enter the lecture hall and take a seat, and it doesn’t take long before the whispering starts.
+You look around and notice that other students are glancing at you.
+What happened with that guy last night?
+There’s a few whistles, but the professor quiets the room and no one will meet your eye.
+You decide to leave class early.''')
+else:
+    print ('''You continue walking and run into your two classmates.
+“Hey, you. We were just talking about the concert last night. Wasn’t it great?” one of your classmates asks.
