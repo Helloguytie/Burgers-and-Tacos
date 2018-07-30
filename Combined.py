@@ -3,9 +3,12 @@ def space():
     while i < 2:
         print()
         i += 1
+def end_code():
+    print('''"How Would You React?” is the final project from the 2018 Girls Who Code Summer Immersion Program at AT&T: Los Angeles. It was created by five students: Aliyah McDaniel, Jessica Moreno, Shawahnah Haraway, Sophie Gutierrez, and Zari Williams. Aliyah will be a junior at Mira Costa High School. Jessica is a rising junior at Animo Pat Brown Charter High School. Shawahnah is homeschooled and is going to become a junior this year. Sophie is a rising junior at Da Vinci Science High School. She enjoys playing choose-your-own adventure games, and one of her favorite games is Telltale Games’ The Walking Dead. Zari will be a senior attending Alexander Hamilton Senior High School. Her favorite part of coding is being able to control what she wants to happen and being behind the scenes. The website for “How Would You React?” was coded using HTML, CSS, and JavaScript. “How Would You React?” was coded using Python. If you or someone you know has been a victim of sexual assault, resources include  800.656.HOPE (4673), rainn.org, projectcallisto.org, and (202) 467-8700 (National Center for Victims of Crime). If you or someone you know has been a victim of sexual harassment or discrimination in the workplace, a resource includes 1-800-522-0925 (9 to 5: National Association of Working Women). For immediate help, contact the National Sexual Assault Hotline at 1-800-656-4673.''')
 
 def naive():
-    print("This is a test; you're naive")
+    print("This is a test; replace with your code")
+    end_code()
 def aware():
     space()
     space()
@@ -252,8 +255,10 @@ def aware():
         She apologizes for the day you’ve been through, but she knows you’ll get through it. As you lay in bed, you reflect on your day.
         You think about the things you could have done differently, and you realize that you didn’t have a lot of decisions to make.
         Some things seem to be just out of your control, but you were able to do something about it.''')
+    end_code()
 def woke():
-    print("This is a test; you're woke")
+    print("This is a test; replace with your code")
+    end_code()
 
 college = input("What college do you want to attend?")
 print ("You are a 20 year old female that is currently attending "+college+".")
