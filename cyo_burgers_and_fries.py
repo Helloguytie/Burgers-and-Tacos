@@ -111,7 +111,7 @@ They begin to talk about you.
 “Hey, you. .We were just talking about...the concert.”/
 “Have you called that guy back yet?”/
 Quit bothering her. See you inside, alright?”
-You enter the lecture hall and take a seat, and it doesn’t take long before the whispering starts.
+You enter the lecture hall and take a seat, and it doesn’t take long befo4re the whispering starts.
 You look around and notice that other students are glancing at you.
 What happened with that guy last night?
 There’s a few whistles, but the professor quiets the room and no one will meet your eye.
