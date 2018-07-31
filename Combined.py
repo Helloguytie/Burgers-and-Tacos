@@ -1,7 +1,7 @@
 def space_line():
-        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
-        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 def intro_code():
     space_line()
@@ -162,7 +162,6 @@ def naive():
                 eighth_condition = False
                 space_line()
                 print("You accept the drink, and the man cuts you off as you begin to order. You think to yourself, 'If he’s buying, he’s ordering, right?'")
-                print()
                 print('''“That wasn’t so bad, huh?” your friend asks. She invites you to join her on the dance floor. You think about leaving the drink at the bar in order to dance. You’re sure it’ll be safe, and you’ll only be gone for a little while.''')
                 leave_it_code()
             elif drink1 == "b":
@@ -195,7 +194,7 @@ def naive():
             if spiked1 == "a":
                 tenth_condition = False
                 print("You drink the remainder of your drink over a conversation with your friend. You feel a little dizzy, and the lights in the bar seem to be fading into each other. Your friend tells you to wait for her while she uses the restroom. You lay your head on the bar to stop your head from spinning.")
-                print()
+                space_line()
                 print('''While your friend is gone, another man asks if you need a ride home. Your vision is only getting blurrier, and your friend hasn’t returned yet. You can’t seem to form any words. Without waiting for a response, he supports your weight as you lean against him, and he leads you out of the bar. This man has led you halfway down the street before your friend and a police officer come running after you. He suddenly drops you and runs away. Your friend cradles your head in her lap while an ambulance is called. Your friend apologizes profusely for the day you’ve been through. Your head is swimming, but you think about the things you could have done differently. You realize you might not have had a lot of decisions to make. Some things seem to be just out of your control, but there were some things you could have done differently.''')
             elif spiked1 == "b":
                 tenth_condition = False
@@ -410,7 +409,6 @@ def aware():
                 new_dict.append("accepted")
                 space_line()
                 print("You accept the drink, and the man cuts you off as you begin to order. You think to yourself, 'What a jerk.'")
-                print()
                 print('''"Man, that guy was a jerk,” your friend says with a laugh. She invites you to join her on the dance floor.
                 You think about leaving your drink and watching it from the dance floor.
                 You won’t be that far from it, and nobody would try anything when you’re so close to the bar.''')
@@ -454,7 +452,7 @@ def aware():
             if spiked == "yes":
                 condition13 = False
                 print("You drink the remainder of your drink over a conversation with your friend.")
-                print()
+                space_line()
                 print('''While your friend is gone, another man asks if you need a ride home.
                 Your vision is only getting blurrier, and your friend hasn’t returned yet. You can’t seem to form any words.
                 Without waiting for a response, he supports your weight as you lean against him, and he leads you out of the bar.
@@ -487,7 +485,6 @@ def aware():
     First it was Jeff, and now Mr. Parker? You should have known something like this could happen, but you never thought about it before.
     Mr. Parker does carry a lot of influence in the news business, but maybe you could do something to stop him.
     What do you do know? Of course you weren’t being paid a lot, but you need the money. Your scholarship doesn’t cover everything…''')
-    print()
     print('''While you pack the belongings on your desk, another intern shows up. She gives you a weak smile and asks if you would like help with packing. You accept.
     “My name is Emma. I’m also an intern,” she says. You introduce yourself to Emma.
     “Did Mr. Parker make you an offer?” she asks. You look up suddenly, and she looks away.
@@ -673,7 +670,6 @@ def woke():
                 new2_dict.append("accepted")
                 space_line()
                 print("You accept the drink, and the man cuts you off as you begin to order. Once he finishes ordering, you tell the bartender what you’d prefer instead.")
-                print()
                 print('''“I think that guy was a little strange,” your friend says. She invites you to join her on the dance floor. You consider taking your drink to the dance floor. You’ve heard of some people getting into serious trouble, and you don’t want to risk it.''')
                 take_it_code()
             elif drink2 == "no":
@@ -681,7 +677,6 @@ def woke():
                 new2_dict.append("unaccepted")
                 space_line()
                 print('''You decline the drink, and the man slurs, “But I bought it already. You don’t know...what’s good for you…” You move further away, and you buy yourself a drink.''')
-                print()
                 print('''“I think we should stay away from that guy,” your friend warns you. She invites you to join her on the dance floor. You consider taking your drink to the dance floor. You’ve heard of some people getting into serious trouble, and you don’t want to risk it.''')
                 take_it_code()
             else:
@@ -712,7 +707,7 @@ def woke():
             if spiked2 == "yes":
                 condition_j = False
                 print("You drink the remainder of your drink over a conversation with your friend.")
-                print()
+                space_line()
                 print('''While your friend is gone, another man asks if you need a ride home.
                 Your vision is only getting blurrier, and your friend hasn’t returned yet. You can’t seem to form any words.
                 Without waiting for a response, he supports your weight as you lean against him, and he leads you out of the bar.
@@ -742,7 +737,6 @@ def woke():
     boss2_code()
     space_line()
     print('''As you’re walking back to your desk, you’re still a little shocked that this is happening. First it was Jeff, and now Mr. Parker? You always knew things like this happened, and you should have known it could happen to you, too. Mr. Parker does carry a lot of influence in the news business, but you will not let him do this to anyone else. Even though you weren’t being paid a lot, you still need the money. Your scholarship doesn’t cover everything…''')
-    print()
     print('''While you pack the belongings on your desk, another intern shows up. She gives you a weak smile and asks if you would like help with packing. You accept.
     “My name is Emma. I’m also an intern,” she says. You introduce yourself to Emma.
     “Did Mr. Parker make you an offer?” she asks. You look up suddenly, and she looks away.
@@ -769,6 +763,8 @@ def woke():
         print('''You and your friend leave the bar and return to your dorm. She apologizes for the day you’ve been through, but she knows you’ll get through it.
         As you lay in bed, you reflect on your day. You think about the things you could have done differently, and you realize that you didn’t have a lot of decisions to make.
         Some things seem to be just out of your control, but you were able to do something about it.''')
+        space_line()
+        end_code()
     elif "didn't take" in new2_dict:
         space_line()
         print("You sit back down at the bar and reach for your drink. It doesn’t look like there is anything wrong with it, but it does have a strange smell.")
@@ -911,13 +907,12 @@ def wallet_code ():
         else:
             print("You did not put in a valid option.")
 def main():
-    college = input("What college do you want to attend?")
-    print ("You are a 20 year old female that is currently attending "+college+".")
-    print("You live in a dorm with your friends and experience various challenges everyday, but today is different...")
-    print ("You get to decide your fate! Choose wisely.")
-    space_line()
-    print ("You are in your dorm room. You went to a concert, and you remember that a person bumped into you after the concert. Your wallet is missing.")
     wallet_code()
 
-
+college = input("What college do you want to attend?")
+print ("You are a 20 year old female that is currently attending "+college+".")
+print("You live in a dorm with your friends and experience various challenges everyday, but today is different...")
+print ("You get to decide your fate! Choose wisely.")
+space_line()
+print ("You are in your dorm room. You went to a concert, and you remember that a person bumped into you after the concert. Your wallet is missing.")
 main()
