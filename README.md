@@ -1,1 +1,1 @@
-# Burgers-and-Tacos
+"How Would You React?” is the final project from the 2018 Girls Who Code Summer Immersion Program at AT&T: Los Angeles. The choose-your-own adventure game spreads awareness and resources about sexual harassment by allowing players to safely experience and react to events as a college student experiencing sexual harassment. The website for “How Would You React?” was coded using HTML, CSS, and JavaScript; the game was coded using Python.
